@@ -64,6 +64,10 @@ def geocodeBatch(locator):
 		    row.append(location.raw)                     # keep all location object info (json)
 		    print(locator+' geocoding '+str(rownum)+' of '+str(totaln)) # tell the progress..
 		except:
+		    row.append('')                               # keep geocoded location
+		    row.append('')                               # keep lat/y
+		    row.append('')                               # keep lon/x
+		    row.append('')                               # keep all location object info (json)
 		    print(locator+' geocoding '+str(rownum)+' of '+str(totaln)+' - unsuccessful - most likely time-out')
 		    cnterror += 1
 		    pass
