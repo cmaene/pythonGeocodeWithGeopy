@@ -13,17 +13,17 @@ address,country,service,geocodeinput,geocodedlocation,latitude,longitude,geocode
 長野県木曽郡大桑村野尻939-58,日本,google,"長野県木曽郡大桑村野尻939-58, 日本","939-58 Nojiri, Okuwa, Kiso District, Nagano, Japan",35.6618376,137.6208792,"{u'geometry': {u'location': {u'lat': 35.6618376, u'lng': 137.6208792}, u'viewport': {u'northeast': {u'lat': 35.6631865802915, u'lng': 137.6222281802915}, u'southwest': {u'lat': 35.6604886197085, u'lng': 137.6195302197085}}, u'location_type': u'ROOFTOP'}, u'address_components': [{u'long_name': u'58', u'types': [u'sublocality_level_5', u'sublocality', u'political'], u'short_name': u'58'}, {u'long_name': u'939', u'types': [u'sublocality_level_4', u'sublocality', u'political'], u'short_name': u'939'}, {u'long_name': u'Nojiri', u'types': [u'sublocality_level_1', u'sublocality', u'political'], u'short_name': u'Nojiri'}, {u'long_name': u'Okuwa', u'types': [u'locality', u'political'], u'short_name': u'Okuwa'}, {u'long_name': u'Kiso District', u'types': [u'colloquial_area', u'locality', u'political'], u'short_name': u'Kiso District'}, {u'long_name': u'Nagano', u'types': [u'administrative_area_level_1', u'political'], u'short_name': u'Nagano'}, {u'long_name': u'Japan', u'types': [u'country', u'political'], u'short_name': u'JP'}], u'formatted_address': u'939-58 Nojiri, Okuwa, Kiso District, Nagano, Japan', u'types': [u'sublocality_level_5', u'sublocality', u'political']}"
 長野県木曽郡木曽町新開１２６番１,日本,google,"長野県木曽郡木曽町新開１２６番１, 日本","126-1 Shinkai, Kiso, Kiso District, Nagano, Japan",35.8503498,137.7361875,"{u'geometry': {u'location': {u'lat': 35.8503498, u'lng': 137.7361875}, u'viewport': {u'northeast': {u'lat': 35.8516987802915, u'lng': 137.7375364802915}, u'southwest': {u'lat': 35.8490008197085, u'lng': 137.7348385197085}}, u'location_type': u'ROOFTOP'}, u'address_components': [{u'long_name': u'1', u'types': [u'sublocality_level_5', u'sublocality', u'political'], u'short_name': u'1'}, {u'long_name': u'126', u'types': [u'sublocality_level_4', u'sublocality', u'political'], u'short_name': u'126'}, {u'long_name': u'Shinkai', u'types': [u'sublocality_level_1', u'sublocality', u'political'], u'short_name': u'Shinkai'}, {u'long_name': u'Kiso', u'types': [u'locality', u'political'], u'short_name': u'Kiso'}, {u'long_name': u'Kiso District', u'types': [u'colloquial_area', u'locality', u'political'], u'short_name': u'Kiso District'}, {u'long_name': u'Nagano', u'types': [u'administrative_area_level_1', u'political'], u'short_name': u'Nagano'}, {u'long_name': u'Japan', u'types': [u'country', u'political'], u'short_name': u'JP'}], u'partial_match': True, u'formatted_address': u'126-1 Shinkai, Kiso, Kiso District, Nagano, Japan', u'types': [u'sublocality_level_5', u'sublocality', u'political']}"
 長野県木曽郡上松町上松１３５０－３,日本,google,"長野県木曽郡上松町上松１３５０－３, 日本","1350-3 Agematsu, Agematsu, Kiso District, Nagano, Japan",35.8065459,137.6864297,"{u'geometry': {u'location': {u'lat': 35.8065459, u'lng': 137.6864297}, u'viewport': {u'northeast': {u'lat': 35.80789488029149, u'lng': 137.6877786802915}, u'southwest': {u'lat': 35.80519691970849, u'lng': 137.6850807197085}}, u'location_type': u'ROOFTOP'}, u'address_components': [{u'long_name': u'3', u'types': [u'sublocality_level_5', u'sublocality', u'political'], u'short_name': u'3'}, {u'long_name': u'1350', u'types': [u'sublocality_level_4', u'sublocality', u'political'], u'short_name': u'1350'}, {u'long_name': u'Agematsu', u'types': [u'sublocality_level_1', u'sublocality', u'political'], u'short_name': u'Agematsu'}, {u'long_name': u'Agematsu', u'types': [u'locality', u'political'], u'short_name': u'Agematsu'}, {u'long_name': u'Kiso District', u'types': [u'colloquial_area', u'locality', u'political'], u'short_name': u'Kiso District'}, {u'long_name': u'Nagano', u'types': [u'administrative_area_level_1', u'political'], u'short_name': u'Nagano'}, {u'long_name': u'Japan', u'types': [u'country', u'political'], u'short_name': u'JP'}], u'formatted_address': u'1350-3 Agematsu, Agematsu, Kiso District, Nagano, Japan', u'types': [u'sublocality_level_5', u'sublocality', u'political']}"
-長野県木曽郡南木曽町吾妻４６４４－７,日本,nominatim,"長野県木曽郡南木曽町吾妻４６４４－７, 日本"
-長野県木曽郡木曽町開田高原西野３１０９－１,日本,nominatim,"長野県木曽郡木曽町開田高原西野３１０９－１, 日本"
-長野県木曽郡木曽町福島２０１２－４,日本,nominatim,"長野県木曽郡木曽町福島２０１２－４, 日本"
-長野県木曽郡木曽町日義４８９８―８,日本,nominatim,"長野県木曽郡木曽町日義４８９８―８, 日本"
-長野県木曽郡大桑村野尻939-58,日本,nominatim,"長野県木曽郡大桑村野尻939-58, 日本"
-長野県木曽郡木曽町新開１２６番１,日本,nominatim,"長野県木曽郡木曽町新開１２６番１, 日本"
-長野県木曽郡上松町上松１３５０－３,日本,nominatim,"長野県木曽郡上松町上松１３５０－３, 日本"
-長野県木曽郡南木曽町吾妻４６４４－７,日本,openmapquest,"長野県木曽郡南木曽町吾妻４６４４－７, 日本"
-長野県木曽郡木曽町開田高原西野３１０９－１,日本,openmapquest,"長野県木曽郡木曽町開田高原西野３１０９－１, 日本"
-長野県木曽郡木曽町福島２０１２－４,日本,openmapquest,"長野県木曽郡木曽町福島２０１２－４, 日本"
-長野県木曽郡木曽町日義４８９８―８,日本,openmapquest,"長野県木曽郡木曽町日義４８９８―８, 日本"
-長野県木曽郡大桑村野尻939-58,日本,openmapquest,"長野県木曽郡大桑村野尻939-58, 日本"
-長野県木曽郡木曽町新開１２６番１,日本,openmapquest,"長野県木曽郡木曽町新開１２６番１, 日本"
-長野県木曽郡上松町上松１３５０－３,日本,openmapquest,"長野県木曽郡上松町上松１３５０－３, 日本"
+長野県木曽郡南木曽町吾妻４６４４－７,日本,nominatim,"長野県木曽郡南木曽町吾妻４６４４－７, 日本",,,,
+長野県木曽郡木曽町開田高原西野３１０９－１,日本,nominatim,"長野県木曽郡木曽町開田高原西野３１０９－１, 日本",,,,
+長野県木曽郡木曽町福島２０１２－４,日本,nominatim,"長野県木曽郡木曽町福島２０１２－４, 日本",,,,
+長野県木曽郡木曽町日義４８９８―８,日本,nominatim,"長野県木曽郡木曽町日義４８９８―８, 日本",,,,
+長野県木曽郡大桑村野尻939-58,日本,nominatim,"長野県木曽郡大桑村野尻939-58, 日本",,,,
+長野県木曽郡木曽町新開１２６番１,日本,nominatim,"長野県木曽郡木曽町新開１２６番１, 日本",,,,
+長野県木曽郡上松町上松１３５０－３,日本,nominatim,"長野県木曽郡上松町上松１３５０－３, 日本",,,,
+長野県木曽郡南木曽町吾妻４６４４－７,日本,openmapquest,"長野県木曽郡南木曽町吾妻４６４４－７, 日本",,,,
+長野県木曽郡木曽町開田高原西野３１０９－１,日本,openmapquest,"長野県木曽郡木曽町開田高原西野３１０９－１, 日本",,,,
+長野県木曽郡木曽町福島２０１２－４,日本,openmapquest,"長野県木曽郡木曽町福島２０１２－４, 日本",,,,
+長野県木曽郡木曽町日義４８９８―８,日本,openmapquest,"長野県木曽郡木曽町日義４８９８―８, 日本",,,,
+長野県木曽郡大桑村野尻939-58,日本,openmapquest,"長野県木曽郡大桑村野尻939-58, 日本",,,,
+長野県木曽郡木曽町新開１２６番１,日本,openmapquest,"長野県木曽郡木曽町新開１２６番１, 日本",,,,
+長野県木曽郡上松町上松１３５０－３,日本,openmapquest,"長野県木曽郡上松町上松１３５０－３, 日本",,,,
