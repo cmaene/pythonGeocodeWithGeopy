@@ -66,6 +66,10 @@ def main():
 		    row.append(location.raw)                     # keep all location object info (json)
 		    print(sys.argv[1]+' geocoding '+str(rownum)+' of '+str(totaln)) # tell the progress..
 		except:
+		    row.append('')                               # place holder for geocoded location
+		    row.append('')                               # place holder lat/y
+		    row.append('')                               # place holder lon/x
+		    row.append('')                               # place holder location object info (json)
 		    print(sys.argv[1]+' geocoding '+str(rownum)+' of '+str(totaln)+' - unsuccessful - most likely time-out')
 		    cnterror += 1
 		    pass
