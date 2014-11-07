@@ -12,7 +12,7 @@ xxxx_GeocodedAll.csv files are the results from geocodeBatchApi.py - usages were
 - python geocodeBatchApi.py test7.csv StreetAddress City State ZipCode
 - python geocodeBatchApi.py rural7.csv address city state zip
 - python geocodeBatchApi.py japan7.csv address country
-- python geocodeBatchApi.py england7.csv address country
+- python geocodeBatchApi.py england7.csv address city postal country
 
 where:
 - test7.csv : seven random Chicago addresses
