@@ -1,6 +1,11 @@
 pythonGeocodeWithGeopy
 
-Sample geocoding trials and scripts using Geopy geocoders.
+Sample geocoding trials and scripts using Geopy (version 1.3.0) geocoders.
+- http://geopy.readthedocs.org/en/latest
+
+Another geocoding package I liked was geocoder
+- https://pypi.python.org/pypi/geocoder
+
 Use xxxxxxApi.py version only if one has the necessary API key from each of the services
 
 xxxx_GeocodedAll.csv files are the results from geocodeBatchApi.py - usages were:
