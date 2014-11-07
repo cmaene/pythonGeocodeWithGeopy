@@ -1,12 +1,13 @@
 pythonGeocodeWithGeopy
 
-Sample geocoding trials and scripts using Geopy geocoders. 
+Sample geocoding trials and scripts using Geopy geocoders.
+Use xxxxxxApi.py version only if one has the necessary API key from each of the services
 
-xxxx_GeocodedAll.csv files are the results from geocodeBatch.py - usages were:
-- python geocodeBatch.py test7.csv StreetAddress City State ZipCode
-- python geocodeBatch.py rural7.csv address city state zip
-- python geocodeBatch.py japan7.csv address country
-- python geocodeBatch.py england7.csv address country
+xxxx_GeocodedAll.csv files are the results from geocodeBatchApi.py - usages were:
+- python geocodeBatchApi.py test7.csv StreetAddress City State ZipCode
+- python geocodeBatchApi.py rural7.csv address city state zip
+- python geocodeBatchApi.py japan7.csv address country
+- python geocodeBatchApi.py england7.csv address country
 
 where:
 - test7.csv : seven random Chicago addresses
