@@ -57,7 +57,7 @@ def geocodeBatch(locator):
 	        row.append(geocodeinput) # keep address/location string to be geocoded
 		# result is the location object
 		try:
-		    location = geoloc.geocode(geocodeinput,timeout=5) # try different timeout in second..
+		    location = geoloc.geocode(geocodeinput,timeout=10) # try different timeout in second..
 		    row.append(location.address.encode('utf-8')) # keep geocoded location
 		    row.append(location.latitude)                # keep lat/y
 		    row.append(location.longitude)               # keep lon/x
@@ -83,8 +83,7 @@ def geocodeBatch(locator):
 	        w.writerow(row)
 	file.close
 
-# =============================
-if __name__ == '__main__':
+def main():
     alllocators = ['arcgis','google','nominatim','openmapquest']
     # let's run the above geocoders in a batch mode
     for eachloc in alllocators:
@@ -102,4 +101,9 @@ if __name__ == '__main__':
 	    for line2 in of:        
 		mf.write(line2)
 	    of.close()
+
+# =============================
+if __name__ == '__main__':
+    main()
+
 

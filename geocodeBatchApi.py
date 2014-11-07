@@ -103,8 +103,7 @@ def geocodeBatch(locator):
 	        w.writerow(row)
 	file.close
 
-# =============================
-if __name__ == '__main__':
+def main():
     alllocators = ['arcgis','google','mapquest','opencage','geocodefarm','nominatim','openmapquest']
     # let's run the above geocoders in a batch mode
     for eachloc in alllocators:
@@ -123,3 +122,6 @@ if __name__ == '__main__':
 		mf.write(line2)
 	    of.close()
 
+# =============================
+if __name__ == '__main__':
+    main()
