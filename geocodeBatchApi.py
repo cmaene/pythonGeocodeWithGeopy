@@ -36,11 +36,11 @@ import sys, os, csv, geopy
 def geocodeBatch(locator):
     # eg: geoloc = geopy.geocoders.ArcGIS() # see geocoders/__init__.py for service names
     if locator == 'mapquest':    
-	geoloc = geopy.get_geocoder_for_service(locator)('Fmjtd%7Cluurn96tn1%2Cbl%3Do5-9w8wuw')
+	geoloc = geopy.get_geocoder_for_service(locator)('**************************')
     elif locator == 'opencage':    
-	geoloc = geopy.get_geocoder_for_service(locator)('d8123c2bd82f83ed24b56523697b062e')
+	geoloc = geopy.get_geocoder_for_service(locator)('**************************')
     elif locator == 'geocodefarm':    
-	geoloc = geopy.get_geocoder_for_service(locator)('bcec47e06168d5c73e1a23708a83f366dcc4de5a')
+	geoloc = geopy.get_geocoder_for_service(locator)('**************************')
     else:
 	geoloc = geopy.get_geocoder_for_service(locator)()
     # print(geoloc) 
