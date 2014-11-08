@@ -93,7 +93,7 @@ def geocodeBatch(locator):
 		    pass
 	    # print('\t'.join(row))
 	    rownum += 1
-	ratesuccess=(rownum-cnterror-1)/float(totaln)*100
+	ratesuccess=round((rownum-cnterror-1)/float(totaln)*100,1)
 	print('Done! '+str(rownum-cnterror-1)+' cases were successfully geocoded ('+str(ratesuccess)+'% success)')
 	# save the result/updated list in CSV format
     	with open(inputfname+'_'+locator+'Geocoded.csv', 'w') as f2:  
@@ -106,8 +106,8 @@ def geocodeBatch(locator):
 def main():
     alllocators = ['arcgis','google','mapquest','opencage','geocodefarm','nominatim','openmapquest']
     # let's run the above geocoders in a batch mode
-    for eachloc in alllocators:
-	geocodeBatch(eachloc)
+    for loc in alllocators:
+	geocodeBatch(loc)
     # also, I want to merge the outputs in one file..
     inputfname = os.path.splitext(os.path.basename(sys.argv[1]))[0]
     with open(inputfname+'_GeocodedAll.csv', 'w') as mf:
