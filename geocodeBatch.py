@@ -95,8 +95,8 @@ def main():
 	for line in open(inputfname+'_'+alllocators[0]+'Geocoded.csv'):
 	    mf.write(line)
 	#append the rest of outputs from the list of all locators
-	for num in range(1,len(alllocators)):
-	    of = open(inputfname+'_'+alllocators[num]+'Geocoded.csv')
+	for loc in alllocators[1:]:
+	    of = open(inputfname+'_'+loc+'Geocoded.csv')
 	    of.next() # skip the header
 	    for line2 in of:        
 		mf.write(line2)

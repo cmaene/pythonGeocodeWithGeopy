@@ -36,11 +36,11 @@ import sys, os, csv, geopy
 def geocodeBatch(locator):
     # eg: geoloc = geopy.geocoders.ArcGIS() # see geocoders/__init__.py for service names
     if locator == 'mapquest':    
-	geoloc = geopy.get_geocoder_for_service(locator)('**************************')
+	geoloc = geopy.get_geocoder_for_service(locator)('Fmjtd%7Cluurn96tn1%2Cbl%3Do5-9w8wuw')
     elif locator == 'opencage':    
-	geoloc = geopy.get_geocoder_for_service(locator)('**************************')
+	geoloc = geopy.get_geocoder_for_service(locator)('d8123c2bd82f83ed24b56523697b062e')
     elif locator == 'geocodefarm':    
-	geoloc = geopy.get_geocoder_for_service(locator)('**************************')
+	geoloc = geopy.get_geocoder_for_service(locator)('bcec47e06168d5c73e1a23708a83f366dcc4de5a')
     else:
 	geoloc = geopy.get_geocoder_for_service(locator)()
     # print(geoloc) 
@@ -115,8 +115,8 @@ def main():
 	for line in open(inputfname+'_'+alllocators[0]+'Geocoded.csv'):
 	    mf.write(line)
 	#append the rest of outputs from the list of all locators
-	for num in range(1,len(alllocators)):
-	    of = open(inputfname+'_'+alllocators[num]+'Geocoded.csv')
+	for loc in alllocators[1:]:
+	    of = open(inputfname+'_'+loc+'Geocoded.csv')
 	    of.next() # skip the header
 	    for line2 in of:        
 		mf.write(line2)
